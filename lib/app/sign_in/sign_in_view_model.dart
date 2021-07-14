@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 
 class SignInViewModel with ChangeNotifier {
   SignInViewModel({required this.auth});
+
   final FirebaseAuth auth;
   bool isLoading = false;
   dynamic error;
